@@ -1,0 +1,6 @@
+Future ideas:
+
+Not going to worry about odd vs even courses
+
+
+Will courses ever have days with different times?

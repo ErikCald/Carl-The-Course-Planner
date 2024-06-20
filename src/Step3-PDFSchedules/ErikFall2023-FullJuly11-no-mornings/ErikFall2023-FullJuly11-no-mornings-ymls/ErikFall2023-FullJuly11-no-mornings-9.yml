@@ -1,0 +1,32 @@
+- name: SYSC 3110 A C
+  days: Wed, Fri
+  time: 13:05 - 14:25
+
+- name: SYSC 3110 A L3
+  days: H
+  time: 14:35 - 17:25
+
+- name: SYSC 3120 A C
+  days: Wed, Fri
+  time: 11:35 - 12:55
+
+- name: SYSC 3120 A L4O
+  days: Tue
+  time: 14:35 - 17:25
+
+- name: SYSC 3310 A C
+  days: Mon, Wed
+  time: 18:05 - 19:25
+
+- name: SYSC 3310 A A1
+  days: Wed
+  time: 16:05 - 17:55
+
+- name: SYSC 4001 A C
+  days: Tue, H
+  time: 13:05 - 14:25
+
+- name: COMP 3005 B C
+  days: Mon, Wed
+  time: 10:05 - 11:25
+
