@@ -7,9 +7,10 @@ import os
 from timed_event import timed_event
 from file_operations import require_all, options_select_one, file_operation
 from after_operations import lab_course_match
-from schedule import schedule
+from schedule import Schedule
 
-filename = 'ErikFall2023-Final'
+filename = 'ErikWinter2025-V1'
+# filename = 'ErikWinter2025-TestEvenOdd'
 
 try:
     filepath = os.path.join('src', 'ReadFiles', filename + ".txt")
@@ -35,6 +36,10 @@ for line in file:
         print("Skipped: " + str(lst))
         continue
     
+    if lst[-1] != '\n' and lst[-1].find('\n') != -1:
+        lst[-1] = lst[-1].replace('\n', '')
+        lst.append('\n')
+
     # print(lst)
 
 
@@ -127,7 +132,7 @@ for indices in lst_indices_permuations:
         events += [lst_operations[i].get(index)]
         i += 1
 
-    lst_schedules += [schedule(events)]
+    lst_schedules += [Schedule(events)]
 
 for op in lst_after_operations:
     print(op)

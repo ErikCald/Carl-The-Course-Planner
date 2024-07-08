@@ -1,5 +1,5 @@
 from timed_event import timed_event
-from schedule import schedule
+from schedule import Schedule
 
 class after_operation:
     def __init__(self):
@@ -25,7 +25,7 @@ class lab_course_match(after_operation):
         if self.event.department == "ERR":
             self.event = event
 
-    def modify_schedule(self, sch: schedule):
+    def modify_schedule(self, sch: Schedule):
         for e in sch.events:
             if (self.event.department == e.department and 
                     self.event.code == e.code and

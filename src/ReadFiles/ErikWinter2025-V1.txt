@@ -1,0 +1,45 @@
+# ---- This section of coding contains all required courses for Winter 2025
+OPTIONS_SELECT_ONE 
+SYSC 3101 A L1O _ Thu _ 14:35 - 17:25
+SYSC 3101 A L2O _ Tue _ 14:35 - 17:25
+SYSC 3101 A L3O _ Fri _ 11:35 - 14:25
+SYSC 3101 A L4O _ Wed _ 14:35 - 17:25
+
+LAB_COURSE_MATCH 
+SYSC 3101 A C _ Mon Wed _ 13:05 - 14:25
+
+OPTIONS_SELECT_ONE 
+SYSC 3303 A A1 _ Fri _ 13:35 - 15:25
+SYSC 3303 A A2 _ Tue _ 16:05 - 17:55
+SYSC 3303 A A4 _ Fri _ 15:35 - 17:25
+SYSC 3303 B B1 _ Tue _ 16:05 - 17:55
+SYSC 3303 B B2 _ Wed _ 11:35 - 13:25
+SYSC 3303 B B3 _ Thu _ 16:05 - 17:55
+
+LAB_COURSE_MATCH 
+SYSC 3303 A C _ Wed Fri _ 11:35 - 12:55 
+
+LAB_COURSE_MATCH 
+SYSC 3303 B C _ Mon Wed _ 16:35 - 17:55 
+
+OPTIONS_SELECT_ONE 
+SYSC 4106 A C _ Tue Thu _ 11:35 - 12:55
+
+OPTIONS_SELECT_ONE 
+SYSC 4120 A L1O _ Wed _ 14:35 - 17:25
+SYSC 4120 A L2E _ Tue _ 14:35 - 17:25
+SYSC 4120 A L3E _ Thu _ 14:35 - 17:25
+SYSC 4120 A L3O _ Thu _ 14:35 - 17:25
+
+LAB_COURSE_MATCH 
+SYSC 4120 A C _ Tue Thu _ 10:05 - 11:25
+
+# ---- This section of coding is for optional courses for the fifth slot and has many more options 
+
+OPTIONS_SELECT_ONE 
+SYSC 4415 A L2 _ Thu _ 14:35 - 15:25
+
+LAB_COURSE_MATCH 
+SYSC 4415 A C _ Mon Wed _ 16:05 - 17:25 
+
+

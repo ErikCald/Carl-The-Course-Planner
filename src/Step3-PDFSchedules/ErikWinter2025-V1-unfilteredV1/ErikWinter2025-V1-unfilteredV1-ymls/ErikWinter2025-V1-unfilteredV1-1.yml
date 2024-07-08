@@ -1,0 +1,32 @@
+- name: SYSC 4120 A L2E / SYSC 3101 A L2O
+  days: Tue
+  time: 14:35 - 17:25
+  
+- name: SYSC 3303 A A1
+  days: Fri
+  time: 13:35 - 15:25
+
+- name: SYSC 4106 A C
+  days: Tue, H
+  time: 11:35 - 12:55
+
+- name: SYSC 4415 A L2
+  days: H
+  time: 14:35 - 15:25
+
+- name: SYSC 3101 A C
+  days: Mon, Wed
+  time: 13:05 - 14:25
+
+- name: SYSC 3303 A C
+  days: Wed, Fri
+  time: 11:35 - 12:55
+
+- name: SYSC 4120 A C
+  days: Tue, H
+  time: 10:05 - 11:25
+
+- name: SYSC 4415 A C
+  days: Mon, Wed
+  time: 16:05 - 17:25
+

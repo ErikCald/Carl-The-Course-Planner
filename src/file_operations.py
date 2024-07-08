@@ -1,4 +1,5 @@
 from timed_event import timed_event
+from typing import List
 
 class file_operation:
     def __init__(self):
@@ -18,7 +19,7 @@ class options_select_one(file_operation):
     def __init__(self):
         self.events = []
 
-    def get_max(self) -> list[int]:
+    def get_max(self) -> List[int]:
         return [len(self.events)]
     
     def get(self, index: int) -> timed_event:
@@ -28,5 +29,5 @@ class require_all(file_operation):
     def __init__(self):
         self.events = []
 
-    def get_max(self) -> list[int]:
+    def get_max(self) -> List[int]:
         return [1] * len(self.events)

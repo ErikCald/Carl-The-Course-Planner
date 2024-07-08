@@ -4,17 +4,18 @@
 
 import os
 from collections.abc import Callable
+from typing import List
 
 from timed_event import timed_event
 from file_operations import require_all, options_select_one, file_operation
-from schedule import schedule
+from schedule import Schedule
 
-filename = 'ErikFall2023-Final'
+filename = 'ErikWinter2025-V1'
 filter_name = 'unfilteredV1'
 
 filename = f"{filename}-{filter_name}"
 
-lst_schedules: list[schedule] = []
+lst_schedules: List[Schedule] = []
 try:
     filepath = os.path.join('src', 'Step2-filteredSchedules', filename + ".txt")
     file = open(filepath, mode="r")

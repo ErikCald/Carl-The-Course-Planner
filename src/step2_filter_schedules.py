@@ -2,19 +2,19 @@
 # Launch this file
 #
 
-import os
+import os, typing
 from collections.abc import Callable
 from typing import Any
 
 from timed_event import timed_event
 from file_operations import require_all, options_select_one, file_operation
-from schedule import schedule
+from schedule import Schedule
 import filters
 
-filename = 'ErikFall2023-Final'
+# filename = 'ErikWinter2025-TestEvenOdd'
+filename = 'ErikWinter2025-V1'
 filter_name = 'unfilteredV1'
-
-lst_schedules: list[schedule] = []
+lst_schedules: typing.List[Schedule] = []
 try:
     filepath = os.path.join('src', 'Step1-UnfilteredSchedules', filename + ".txt")
     file = open(filepath, mode="r")
@@ -37,7 +37,7 @@ except Exception as e:
 
 file.close()
 
-def filter(name: str, bool_func: Callable[[schedule, Any], bool], extra: Any):
+def filter(name: str, bool_func: typing.Callable[[Schedule, Any], bool], extra: Any):
     print(f"Applying filter: {name} \nPermutations before: {len(lst_schedules)}\n")
 
     i = 0
@@ -66,8 +66,8 @@ filter("Time conflicts", filters.has_time_conflicts, "")
 # wait_time = 6*60
 # filter(f"Must have no wait time of more than {wait_time} minutes", filters.has_wait_time, wait_time)
 
-max_carl_time = 26
-filter(f"Must have a carl time of less than {max_carl_time} hours", filters.has_total_carl_time, max_carl_time)
+# max_carl_time = 26
+# filter(f"Must have a carl time of less than {max_carl_time} hours", filters.has_total_carl_time, max_carl_time)
 
 try:
     filepath = os.path.join('src', 'Step2-filteredSchedules', f"{filename}-{filter_name}.txt")
