@@ -12,15 +12,15 @@ OPTIONS_SELECT_ONE
 SYSC 3303 A A1 _ Fri _ 13:35 - 15:25
 SYSC 3303 A A2 _ Tue _ 16:05 - 17:55
 SYSC 3303 A A4 _ Fri _ 15:35 - 17:25
-SYSC 3303 B B1 _ Tue _ 16:05 - 17:55
-SYSC 3303 B B2 _ Wed _ 11:35 - 13:25
-SYSC 3303 B B3 _ Thu _ 16:05 - 17:55
+# SYSC 3303 B B1 _ Tue _ 16:05 - 17:55
+# SYSC 3303 B B2 _ Wed _ 11:35 - 13:25
+# SYSC 3303 B B3 _ Thu _ 16:05 - 17:55
 
 LAB_COURSE_MATCH 
 SYSC 3303 A C _ Wed Fri _ 11:35 - 12:55 
 
-LAB_COURSE_MATCH 
-SYSC 3303 B C _ Mon Wed _ 16:35 - 17:55 
+# LAB_COURSE_MATCH 
+# SYSC 3303 B C _ Mon Wed _ 16:35 - 17:55  # 3303 B For Computer Systems Eng only
 
 OPTIONS_SELECT_ONE 
 SYSC 4106 A C _ Tue Thu _ 11:35 - 12:55
@@ -37,9 +37,44 @@ SYSC 4120 A C _ Tue Thu _ 10:05 - 11:25
 # ---- This section of coding is for optional courses for the fifth slot and has many more options 
 
 OPTIONS_SELECT_ONE 
-SYSC 4415 A L2 _ Thu _ 14:35 - 15:25
+# SYSC 4415 A L2 _ Thu _ 14:35 - 15:25 
+# SYSC 3600 E L1 _ Fri _ 8:35 - 12:25 
+# SYSC 3600 E L2 _ Wed _ 11:35 - 14:25 
+# SYSC 3600 E L3 _ Mon _ 11:35 - 14:25 
+# SYSC 4504 A L1E _ Fri _ 8:35 - 11:25 
+# SYSC 4504 A L2E _ Wed _ 8:35 - 11:25 
+# SYSC 4504 A L3E _ Mon _ 11:35 - 14:25 
+# SYSC 4906 C C _ Tue Thu _ 17:35 - 18:55 # Advanced C++ Online
+# SYSC 4906 D D1 _ Mon _ 14:35 - 15:55 # AI in Eng 
+# SYSC 4205 A L1 _ Thu _ 11:35 - 14:25 # Image Process
+# SYSC 4205 A L2 _ Wed _ 8:35 - 11:25
+# SYSC 4111 A C _ Tue Thu _ 11:35 - 12:55 # CONFLICTS
+# SYSC 4005 A L1 _ Mon _ 11:35 - 12:25
+# SYSC 4005 A L2 _ Mon _ 16:35 - 17:25
+# COMP 2108 A C _ Tue Thu _ 16:05 - 17:25 # CONFLICTS
+# SYSC 4130 A L1 _ Thu _ 11:35 - 14:25
+COMP 3002 A C _ Mon _ 18:05 - 20:55
 
 LAB_COURSE_MATCH 
 SYSC 4415 A C _ Mon Wed _ 16:05 - 17:25 
+
+LAB_COURSE_MATCH 
+SYSC 3600 E C _ Tue Thu _ 10:05 - 11:25 # DOESN'T FIT WITH SYSC 4120
+
+LAB_COURSE_MATCH
+SYSC 4504 A C _ Tue Thu _ 14:35 - 15:55 # DOESN'T WORK
+
+LAB_COURSE_MATCH
+SYSC 4906 D C _ Mon Wed _ 16:05 - 17:25 # AI in Eng
+
+LAB_COURSE_MATCH
+SYSC 4205 A C _ Tue Thu _ 8:35 - 9:55 # Image Process and Medical Application
+
+LAB_COURSE_MATCH
+SYSC 4005 A C _ Wed Fri _ 16:05 - 17:25 # Discrete Sim/Modelling
+
+LAB_COURSE_MATCH
+SYSC 4130 A C _ Wed Fri _ 14:35 - 15:55
+
 
 

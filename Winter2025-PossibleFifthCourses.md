@@ -1,3 +1,15 @@
+Desired course list CRNs:
+
+Intro AI V1
+15242 15244 15249 15250 15282 15284 15286 15302 15303 
+
+Intro AI V2
+15242 15244 15249 15250 15282 15284 15286 15302 15303 
+
+Special AI in Eng V1:
+15242 15243 15249 15250 15282 15284 15288 15324 15325 
+
+
 ### SYSC 3600 - Systems and Simulation
 Properties of linear systems. Linear dynamic models of engineering systems. Applications of the Laplace transform. Transfer functions. Block diagrams. Frequency and time response. System simulation with digital computers.
 

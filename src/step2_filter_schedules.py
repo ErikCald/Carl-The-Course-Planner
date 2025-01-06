@@ -14,6 +14,7 @@ import filters
 # filename = 'ErikWinter2025-TestEvenOdd'
 filename = 'ErikWinter2025-V1'
 filter_name = 'unfilteredV1'
+
 lst_schedules: typing.List[Schedule] = []
 try:
     filepath = os.path.join('src', 'Step1-UnfilteredSchedules', filename + ".txt")
