@@ -10,7 +10,7 @@ from timed_event import timed_event
 from file_operations import require_all, options_select_one, file_operation
 from schedule import Schedule
 
-filename = 'ErikWinter2025-V1'
+filename = 'ErikFall2025-V1'
 filter_name = 'unfilteredV1'
 
 filename = f"{filename}-{filter_name}"

@@ -12,7 +12,7 @@ from schedule import Schedule
 import filters
 
 # filename = 'ErikWinter2025-TestEvenOdd'
-filename = 'ErikWinter2025-V1'
+filename = 'ErikFall2025-V1'
 filter_name = 'unfilteredV1'
 
 lst_schedules: typing.List[Schedule] = []

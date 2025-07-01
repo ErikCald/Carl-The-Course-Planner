@@ -1,0 +1,36 @@
+- name: SYSC 4101 A L1
+  days: Mon
+  time: 15:35 - 18:25
+
+- name: SYSC 4806 A L1
+  days: Mon
+  time: 11:35 - 15:25
+
+- name: SYSC 4810 A A1
+  days: Wed
+  time: 10:05 - 11:25
+
+- name: SYSC 4907 A C
+  days: Mon, Fri
+  time: 10:05 - 11:25
+
+- name: SYSC 3600 C C
+  days: Tue, H
+  time: 13:05 - 14:25
+
+- name: SYSC 3600 AC L5
+  days: Fri
+  time: 14:35 - 17:25
+
+- name: SYSC 4101 A C
+  days: Tue, H
+  time: 16:05 - 17:25
+
+- name: SYSC 4806 A C
+  days: Wed
+  time: 17:35 - 19:25
+
+- name: SYSC 4810 A C
+  days: Tue, H
+  time: 10:05 - 11:25
+

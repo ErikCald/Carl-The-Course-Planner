@@ -9,7 +9,7 @@ from file_operations import require_all, options_select_one, file_operation
 from after_operations import lab_course_match
 from schedule import Schedule
 
-filename = 'ErikWinter2025-V1'
+filename = 'ErikFall2025-V1'
 # filename = 'ErikWinter2025-TestEvenOdd'
 
 try:
