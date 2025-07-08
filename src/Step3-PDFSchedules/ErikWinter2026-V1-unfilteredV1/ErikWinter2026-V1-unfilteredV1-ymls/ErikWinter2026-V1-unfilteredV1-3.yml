@@ -1,0 +1,28 @@
+- name: SYSC 4907 A C
+  days: Mon, Fri
+  time: 10:05 - 11:25
+
+- name: SYSC 4906 C C
+  days: Tue, H
+  time: 17:35 - 18:55
+
+- name: SYSC 4906 F C
+  days: Tue, H
+  time: 10:05 - 11:25
+
+- name: COMP 4900 E C
+  days: Tue, H
+  time: 08:35 - 09:55
+
+- name: SYSC 4205 A L2
+  days: Fri
+  time: 14:35 - 17:25
+
+- name: SYSC 4502 A C
+  days: Mon, Wed
+  time: 14:35 - 15:55
+
+- name: SYSC 4205 A C
+  days: Mon, Wed
+  time: 08:35 - 09:55
+
